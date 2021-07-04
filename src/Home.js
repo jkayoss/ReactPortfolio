@@ -1,6 +1,7 @@
 import { Navbar } from './components/Nav';
 import { Header } from './components/Header';
 import { AboutMe } from './components/About';
+import { ContatoMe } from './components/Contato';
 import { ProjetosRealizados } from './components/Projetos';
 import {
   BrowserRouter as Router,
@@ -23,6 +24,9 @@ export function Home() {
             </Route>
             <Route exact path="/about">
               <About />
+            </Route>
+            <Route exact path="/contato">
+              <Contato />
             </Route>
           </Switch>
       </div>
@@ -50,6 +54,14 @@ function About() {
   return (
     <>
     <AboutMe />
+    </>
+  );
+}
+
+function Contato() {
+  return (
+    <>
+    <ContatoMe />
     </>
   );
 }
