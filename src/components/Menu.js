@@ -9,7 +9,7 @@ export function Menu() {
                 <li> <img src={arrow} alt="seta apontando pras opções do menu inferior"/> </li>
                 <li><Link to="/about">Sobre mim</Link></li>
                 <li><Link to="/projetos">Projetos</Link></li>
-                <li><Link to="/contato">Contato</Link></li>
+                {/* <li><Link to="/contato">Contato</Link></li> */}
             </ul>
         </div>
         
