@@ -1,0 +1,16 @@
+section {
+    width: 100%;
+    box-sizing: border-box;
+    .container {
+        max-width: 1100px;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+}
