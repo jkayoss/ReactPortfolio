@@ -3,7 +3,7 @@ import { Menu } from '../components/Menu';
 
 export function Header() {
     return (
-      <header>
+      <header className="up">
         <div className="container">
           <h1><span>Olá!</span><br/>Me chamo <u>Kayo</u>.</h1>
           <p>Sou um desenvolvedor frontend em formação.</p>

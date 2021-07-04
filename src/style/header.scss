@@ -1,6 +1,11 @@
 header {
     width: 100%;
     box-sizing: border-box;
+    .up {
+        animation-name: up;
+        animation-duration: 1000ms;
+        animation-fill-mode: backwards;
+      }  
     .container {
         max-width: 1100px;
         height: calc(100vh - 90px);

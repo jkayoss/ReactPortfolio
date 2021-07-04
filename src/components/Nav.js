@@ -15,8 +15,8 @@ export function Navbar() {
           </div>
           
           <ul>
-              <a href="https://github.com/jkayoss"><li><img src={github} alt="link para o GitHub"/></li></a>
-              <a href="https://www.linkedin.com/in/jhonatankayo/"><li><img src={linkedin} alt="link para o Linkedin"/></li></a>
+              <a href="https://github.com/jkayoss" target="_blank"><li><img src={github} alt="link para o GitHub"/></li></a>
+              <a href="https://www.linkedin.com/in/jhonatankayo/" target="_blank"><li><img src={linkedin} alt="link para o Linkedin"/></li></a>
           </ul>
         </div>
       </nav>

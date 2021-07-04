@@ -7,7 +7,7 @@ export function ContatoMe() {
         alert('Obrigado pelo contato! Responderei assim que possivel.')       
     }
     return (
-        <section>
+        <section className="up">
             <div class="container">
             
                 <h1>Tem algum projeto frontend?</h1>

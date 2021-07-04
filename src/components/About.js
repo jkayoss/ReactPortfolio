@@ -4,7 +4,7 @@ import { Menu } from '../components/Menu';
 
 export function AboutMe() {
     return (
-        <section>
+        <section className="up">
             <div class="container">
                 <div class="grid">
                     <div class="col">

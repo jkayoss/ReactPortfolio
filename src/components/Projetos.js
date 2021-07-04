@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export function ProjetosRealizados() {
     return (
-        <section>
+        <section className="up">
             <div class="container">
                 <h1>Projetos realizados</h1>
                 <p class="description">Além deste portfólio feito em ReactJS, tenho outros projetos que realizei para praticar minhas habilidades em frontend.</p>
