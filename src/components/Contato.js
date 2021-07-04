@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { Menu } from '../components/Menu';
 
 export function ContatoMe() {
+    function alertSending() {
+        alert('Obrigado pelo contato! Responderei assim que possivel.')       
+    }
     return (
         <section>
             <div class="container">
@@ -14,12 +17,15 @@ export function ContatoMe() {
                     <input type="email" name="email" placeholder="Informe um e-mail"/>
                     <input type="tel" name="telefone" placeholder="Informe um telefone"/>
                     <textarea name="mensagem" placeholder="Como posso ajuda-lo?"></textarea>
-                    <button type="submit" >Enviar mensagem</button>
+                    <button type="submit" onClick="alertSending()">Enviar mensagem</button>
                 </form>
                 <footer class="footer"></footer>
                 <div class="contextMenu">
                     <Menu />
                 </div>
+                <script>
+                   
+                </script>
                 
                
             </div>
