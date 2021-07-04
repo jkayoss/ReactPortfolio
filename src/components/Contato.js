@@ -9,7 +9,7 @@ export function ContatoMe() {
             
                 <h1>Tem algum projeto frontend?</h1>
                 <h2>Fala comigo ↓ </h2>
-                <form action="/" name="contato" method="POST" netlify>
+                <form action="/contato" name="contato" method="POST" netlify>
                     <input type="text" name="nome" placeholder="Informe seu nome"/>
                     <input type="email" name="email" placeholder="Informe um e-mail"/>
                     <input type="tel" name="telefone" placeholder="Informe um telefone"/>
