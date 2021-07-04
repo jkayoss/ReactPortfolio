@@ -17,7 +17,7 @@ export function ContatoMe() {
                     <input type="email" name="email" placeholder="Informe um e-mail"/>
                     <input type="tel" name="telefone" placeholder="Informe um telefone"/>
                     <textarea name="mensagem" placeholder="Como posso ajuda-lo?"></textarea>
-                    <button type="submit" onClick="alertSending()">Enviar mensagem</button>
+                    <button type="submit" onClick={alertSending}>Enviar mensagem</button>
                 </form>
                 <footer class="footer"></footer>
                 <div class="contextMenu">
