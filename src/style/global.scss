@@ -3,6 +3,7 @@
 :root {
     --darkBg: #201E1E;
 } 
+  
 
 * {
     margin: 0;
@@ -11,8 +12,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 0px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: none;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ff7b43;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--darkBg);  /* creates padding around scroll thumb */
+  }
+
 body {
     background-color: var(--darkBg);
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: black #ff7b43;   /* scroll thumb and track */
 }
 
 a {

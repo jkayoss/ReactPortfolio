@@ -9,13 +9,29 @@ nav {
         align-items: center;
         margin: 0 auto;
         padding: 0 20px;
-    }
-    ul {
-        display: flex;
-        li {
-            list-style: none;
-            margin-left: 20px;
-            margin-top: -10px;
+        .about {
+            display: flex;
+            img.profilepic {
+                max-height: 50px;
+                border-radius: 50%;
+                padding: 0 20px;
+                margin-top: -2px;
+            }
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            height: 90px;
+            li {
+                list-style: none;
+                margin-left: 20px;
+                img{
+                    filter: invert(1);
+                    height: 30px;
+                }
+            }
+            
         }
     }
+    
 }
