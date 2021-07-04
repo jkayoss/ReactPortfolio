@@ -6,7 +6,7 @@ export function AboutMe() {
     return (
         <section className="up">
             <div class="container">
-                <div class="grid">
+                <div class="gridAbout">
                     <div class="col">
                     <h1><span>Olá!</span><br/>Me chamo <u>Kayo</u>.</h1>
                     <p class="description">Tenho 24 anos, <br/>Trabalho com análise de processos, <br/>Formando em engenharia de produção, <br/>Estudante de frontend, <br/>Inglês intermediário.</p>

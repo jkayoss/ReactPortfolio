@@ -29,21 +29,23 @@ section {
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
-        .title {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-right: 10px;
-            svg {
-                filter: invert(1);
-            }
-        }
+        gap: 20px;
+        
+        
         .card {
             margin-top: 0px;
-            width: 300px;
+            max-width: 300px;
             background-color: #2A2828;
             border-radius: 5px;
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-right: 10px;
+                svg {
+                    filter: invert(1);
+                }
+            }
             h3 {
                 box-sizing: border-box;
                 padding: 5px 15px 20px 15px;
@@ -86,6 +88,9 @@ section {
     @media (max-width: 900px) {
         .grid {
             grid-template-columns: 1fr 1fr;
+            .card {
+                max-width: 330px;
+            }
         }
     }
 
@@ -95,12 +100,12 @@ section {
         }
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         .grid {
             display: block;
             width: 100%;
             .card {
-                width: 100%;
+                min-width: 100%;
                 margin-bottom: 15px;
             }
         }
