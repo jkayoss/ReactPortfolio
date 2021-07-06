@@ -4,6 +4,6 @@ Essa é uma versão renovada do meu antigo portfólio, agora feito em ReactJS, v
 
 ## Metas
 
-[x] Concluir o portfólio;
-[x] Fazer o deploy na Netlify;
-[x] Inserir animações.
+- [x] Concluir o portfólio;
+- [x] Fazer o deploy na Netlify;
+- [ ] Inserir animações e transições.
