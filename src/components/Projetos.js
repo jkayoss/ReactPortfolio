@@ -7,12 +7,15 @@ import temfiller from '../media/filler.png';
 import Fade from 'react-reveal/Fade';
 
 
+
 export function ProjetosRealizados() {
     return (
         <section className="up">
             <div class="container">
                 <h1><Fade bottom>Projetos realizados</Fade></h1>
                 <p class="description"><Fade bottom>Além deste portfólio feito em ReactJS, tenho outros projetos que realizei para praticar minhas habilidades em frontend.</Fade></p>
+                <Fade bottom cascade>
+                    <div>
                 <div class="grid">
                     <div class="card">
                         <a target="_blank" rel="noreferrer" href="https://letmeaskdb.web.app/"><div class="title"><h3>Let me ask</h3>
@@ -56,7 +59,7 @@ export function ProjetosRealizados() {
                         <p>Layout de agencia ficticia para pôr em prática conhecimentos em UI Design e Design Responsivo.</p>
                         <div class="skill"><p></p><strong>UI Design + Design Responsivo</strong></div>
                     </div>
-                </div>
+                    </div></div></Fade>
                 <footer class="footer">
                 </footer>
                 <div class="contextMenu">
