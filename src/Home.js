@@ -6,9 +6,9 @@ import { ProjetosRealizados } from './components/Projetos';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+
 
 export function Home() {
   return (
@@ -37,7 +37,9 @@ export function Home() {
 function Main() {
   return (
     <>
+    
     <Header />
+    
     </>
   );
 }
@@ -45,7 +47,9 @@ function Main() {
 function Projetos() {
   return (
     <>
+    
     <ProjetosRealizados />
+    
     </>
   );
 }
@@ -53,7 +57,9 @@ function Projetos() {
 function About() {
   return (
     <>
+    
     <AboutMe />
+    
     </>
   );
 }
@@ -61,7 +67,9 @@ function About() {
 function Contato() {
   return (
     <>
+    
     <ContatoMe />
+    
     </>
   );
 }

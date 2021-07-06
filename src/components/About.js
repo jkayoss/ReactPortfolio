@@ -1,6 +1,6 @@
 import '../style/about.scss';
-import { Link } from "react-router-dom";
 import { Menu } from '../components/Menu';
+
 
 export function AboutMe() {
     return (
