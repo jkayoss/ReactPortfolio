@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    box-sizing: border-box;
+    .up {
+        animation-name: up;
+        animation-duration: 1000ms;
+        animation-fill-mode: backwards;
+      }  
+    .container {
+        max-width: 1100px;
+        height: calc(100vh - 90px);
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            img.me {
+                max-width: 100%;
+            }
+           
+        }
+        @media (max-width: 780px) {
+               .grid {
+                   grid-template-columns: 1fr;
+               }
+               img.me {
+                display: none;
+            }
+            
+        }
+        h1 {
+            font-size: 48px;
+            line-height: 50px;
+            font-weight: 900;
+        } h1 span {
+            font-size: 60px;
+            color: #ff7b43;
+        } p {
+            margin-top: 30px;
+            font-size: 18px;
+        } 
+        
+    } 
+}
