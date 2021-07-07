@@ -7,6 +7,7 @@ export function AboutMe() {
     return (
         <section className="up">
             <div class="container">
+                
                 <div class="gridAbout">
                     <div class="col">
                     <Flip bottom>
@@ -20,7 +21,7 @@ export function AboutMe() {
                     </div>
                     </Flip>
                     
-                    <Slide right cascade>
+                    <Slide right>
                     <div>
                     <h3>Certificações:</h3>
                         <div class="certification"><p><strong>Design Responsivo</strong> pela <i>FreeCodeCamp.</i></p></div>
@@ -38,11 +39,9 @@ export function AboutMe() {
                 </div>
 
                     <footer class="footer"></footer>
-                    <div class="contextMenu">
-                        <Menu />
-                    </div>
-                    
-               
+                <div class="contextMenu">
+                    <Menu />
+                </div>
             </div>
         </section>  
     );
