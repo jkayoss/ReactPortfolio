@@ -20,8 +20,12 @@ export function AboutMe() {
                     <p class="description">Tenho 24 anos, <br/>Trabalho com análise de processos, <br/>Formando em engenharia de produção, <br/>Estudante de frontend, <br/>Inglês intermediário.</p>   
                     </div>
                     </Flip>
-                    
-                    <Slide right>
+                    <div class="contextMenu">
+                    <Menu />
+                </div>
+                    <div>
+
+                    <Slide bottom cascade>
                     <div>
                     <h3>Certificações:</h3>
                         <div class="certification"><p><strong>Design Responsivo</strong> pela <i>FreeCodeCamp.</i></p></div>
@@ -32,6 +36,7 @@ export function AboutMe() {
                     </div>
                     </Slide>
                     </div>
+                    </div>
                     
                     <div class="col">
                         
@@ -39,9 +44,7 @@ export function AboutMe() {
                 </div>
 
                     <footer class="footer"></footer>
-                <div class="contextMenu">
-                    <Menu />
-                </div>
+                
             </div>
         </section>  
     );
