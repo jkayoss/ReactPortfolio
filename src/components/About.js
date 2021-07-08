@@ -25,7 +25,7 @@ export function AboutMe() {
                 </div>
                     <div>
 
-                    <Slide bottom cascade>
+                    <Slide bottom>
                     <div>
                     <h3>Certificações:</h3>
                         <div class="certification"><p><strong>Design Responsivo</strong> pela <i>FreeCodeCamp.</i></p></div>
